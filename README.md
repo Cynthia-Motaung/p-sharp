@@ -1,7 +1,7 @@
 # Py# Developers Portfolio Website
 
 This is the official portfolio website for Py# Developers, a team of dedicated software engineers. It is a fully responsive, single-page application designed to showcase our skills, featured projects, and professional capabilities to potential clients and employers.
-Live Demo: https://p-sharp.vercel.app/
+
 ---
 
 ## ✨ Features
@@ -16,6 +16,14 @@ This website is built with a focus on modern design, interactivity, and an excel
 * **Smooth Scrolling & Navigation**: Includes a "Back to Top" button and smooth scrolling for a pleasant user journey.
 * **Live Form Validation**: The contact form provides real-time feedback for email validation to prevent submission errors.
 * **Polished UI/UX**: Features like a navbar that changes on scroll and a custom-styled scrollbar create a highly polished user experience.
+
+---
+
+## 🚀 Live Demo
+
+A live version of the website is hosted and available for viewing.
+
+**[View Live Demo](https://https://p-sharp.vercel.app/)**
 
 ---
 
@@ -52,7 +60,7 @@ To run this project locally, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
+    git clone [https://https://github.com/Cynthia-Motaung/p-sharp
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -104,4 +112,3 @@ To receive messages from the contact form:
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
