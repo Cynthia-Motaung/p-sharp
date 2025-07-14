@@ -1,7 +1,7 @@
 # Py# Developers Portfolio Website
 
 This is the official portfolio website for Py# Developers, a team of dedicated software engineers. It is a fully responsive, single-page application designed to showcase our skills, featured projects, and professional capabilities to potential clients and employers.
-
+Live Demo: https://p-sharp.vercel.app/
 ---
 
 ## ✨ Features
@@ -52,7 +52,7 @@ To run this project locally, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone https://github.com/your-username/your-repository-name.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
