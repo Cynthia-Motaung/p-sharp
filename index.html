@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official portfolio for Py# Developers. We are a dedicated team of software engineers specializing in building high-performance, scalable, and user-centric web applications.">
+    <title>Py# Developers Profile</title>
+    <link rel="icon" type="image/png" href="/Images/Py_sharp.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-container">
+                <img src="/Images/Py_sharp.jpg" alt="Company Logo" class="logo-img">
+            </a>
+            <div class="nav-menu-wrapper">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="hamburger" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>We build innovative solutions with <span class="highlight" id="typed-text"></span></h1>
+                <p class="hero-text">A dynamic team of software engineers dedicated to transforming complex challenges into elegant, high-performance web solutions. Discover our work and learn how we can empower your next project.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Our Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2 class="section-title">About Py# Developers</h2>
+                <p class="section-subtitle">Who we are and what we stand for.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Established in 2025, Py# Developers was born from a shared drive to bridge the crucial gap between conceptual ideas and flawless technical execution. As a collective of proficient software engineers, we specialize in full-stack development, leveraging our deep expertise in Java, Python, C#, and contemporary web frameworks to solve complex, real-world challenges.</p>
+                </div>
+            </div>
+            <div class="mission-values">
+                <div class="mission">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to empower businesses and individuals through state-of-the-art software solutions engineered for reliability, scalability, and exceptional user experience. We are committed to the principle that technology should serve people, simplifying complexities and driving progress.</p>
+                </div>
+                <div class="values">
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li>Innovation through collaboration</li>
+                        <li>Quality in every line of code</li>
+                        <li>Continuous learning and growth</li>
+                        <li>Transparency and integrity</li>
+                        <li>User-centric design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle">A selection of projects demonstrating our technical capabilities and commitment to quality.</p>
+            </div>
+            <div class="project-grid">
+                <div class="project-card" 
+                     data-title="Mood Classification Application" 
+                     data-img="/Images/ZenAI.png" 
+                     data-desc="This project explores the application of Natural Language Processing (NLP) to create an empathetic user interface. The system analyzes text input to classify the user's emotional state, enabling it to provide tailored responses and direct users to appropriate wellness resources. The primary focus was on developing a responsive, private, and non-intrusive user experience."
+                     data-tech="Prototyping,UI/UX,Figma,Frontend"
+                     data-link="https://embed.figma.com/design/DapO9DD1rwjZznHEF0JMp9/AI-Powered-Mental-Health-Assistant?node-id=0-1&embed-host=share">
+                    <div class="project-image">
+                        <img src="/Images/ZenAI.png" alt="ZenAI" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mood Classification Application</h3>
+                        <p class="project-description">A proof-of-concept for an AI-powered wellness assistant designed to classify user sentiment and provide supportive feedback.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Prototyping</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <button class="btn btn-outline btn-details">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" 
+                     data-title="E-Commerce Platform API" 
+                     data-img="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzc0MTR8MHwxfGFsbHx8fHx8fHx8fDE3MjA5NDU1MDh8&ixlib=rb-4.0.3&q=80&w=1080" 
+                     data-desc="This project involved designing and building a secure and scalable RESTful API for a modern e-commerce platform. Key features include user authentication, product inventory management, order processing, and integration with a third-party payment gateway. The API is built on a microservices architecture using Java and Spring Boot for high availability and performance."
+                     data-tech="Java,Spring Boot,REST API,Backend"
+                     data-link="#">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzc0MTR8MHwxfGFsbHx8fHx8fHx8fDE3MjA5NDU1MDh8&ixlib=rb-4.0.3&q=80&w=1080" alt="Placeholder Project Image" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform API</h3>
+                        <p class="project-description">A secure and scalable RESTful API for an e-commerce platform, featuring inventory management and order processing.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Backend</span>
+                        </div>
+                        <button class="btn btn-outline btn-details">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" 
+                     data-title="Data Visualization Dashboard" 
+                     data-img="https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzc0MTR8MHwxfGFsbHx8fHx8fHx8fDE3MjA5NDU1MDh8&ixlib=rb-4.0.3&q=80&w=1080" 
+                     data-desc="An interactive web-based dashboard for visualizing complex sales data. This application connects to a live database, processes the data, and presents it through a variety of dynamic charts and graphs. Built with Python (Flask) on the backend and JavaScript on the frontend, it allows users to filter data by date, region, and product category to gain actionable insights."
+                     data-tech="Python,JavaScript,Data Viz,Full-Stack"
+                     data-link="#">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzc0MTR8MHwxfGFsbHx8fHx8fHx8fDE3MjA5NDU1MDh8&ixlib=rb-4.0.3&q=80&w=1080" alt="Placeholder Project Image" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Data Visualization Dashboard</h3>
+                        <p class="project-description">An interactive dashboard for visualizing sales data with dynamic charts, graphs, and filtering capabilities.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Full-Stack</span>
+                        </div>
+                        <button class="btn btn-outline btn-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="section-header">
+                <h2 class="section-title">Our Development Team</h2>
+                <p class="section-subtitle">Meet the dedicated engineers driving our innovation.</p>
+            </div>
+            <div class="team-members">
+                 <div class="team-member">
+                    <img src="/Images/Kea.JPEG" loading="lazy" alt="Keamogetsoe Sele" class="member-img">
+                    <div class="member-overlay">
+                        <h3 class="member-name">Keamogetsoe Sele</h3>
+                        <p class="member-role">Software Developer</p>
+                        <div class="member-social">
+                            <a href="https://www.linkedin.com/in/keamogetsoe-kgomotso-nicole-sele-455684178/" class="social-link" target="_blank" aria-label="Keamogetsoe Sele's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Keamo0713" class="social-link" target="_blank" aria-label="Keamogetsoe Sele's GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/Images/Mlu.jpg" loading="lazy" alt="Mlungisi Mvubu" class="member-img">
+                     <div class="member-overlay">
+                        <h3 class="member-name">Mlungisi Mvubu</h3>
+                        <p class="member-role">Software Developer</p>
+                        <div class="member-social">
+                            <a href="https://www.linkedin.com/in/mlungisi-mvubu-35535230a/" class="social-link" target="_blank" aria-label="Mlungisi Mvubu's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Mlungisi2930" class="social-link" target="_blank" aria-label="Mlungisi Mvubu's GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/Images/Cyn.jpg" loading="lazy" alt="Cynthia Motaung" class="member-img">
+                     <div class="member-overlay">
+                        <h3 class="member-name">Cynthia Motaung</h3>
+                        <p class="member-role">Software Developer</p>
+                        <div class="member-social">
+                            <a href="#" class="social-link" aria-label="Cynthia Motaung's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Cynthia-Motaung" class="social-link" target="_blank" aria-label="Cynthia Motaung's GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="/Images/Siyamthanda.jpg" loading="lazy" alt="Siyamthanda Dlakavu" class="member-img">
+                     <div class="member-overlay">
+                        <h3 class="member-name">Siyamthanda Dlakavu</h3>
+                        <p class="member-role">Software Developer</p>
+                        <div class="member-social">
+                            <a href="https://www.linkedin.com/in/siyamthandad/" class="social-link" target="_blank" aria-label="Siyamthanda Dlakavu's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/SiyamthandaD" class="social-link" target="_blank" aria-label="Siyamthanda Dlakavu's GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack-animation">
+            <h2 class="tech-title">Our Technology Stack</h2>
+            <div class="tech-slider">
+                <div class="tech-container">
+                    <div class="tech-item"><img src="/Images/html_.png" alt="HTML5" class="tech-logo"></div>
+                    <div class="tech-item"><img src="/Images/css_.jpg" alt="CSS3" class="tech-logo"></div>
+                    <div class="tech-item"><img src="/Images/js_.png" alt="JavaScript" class="tech-logo"></div>
+                    <div class="tech-item"><img src="/Images/cs_.png" alt="C#" class="tech-logo"></div>
+                    <div class="tech-item"><img src="/Images/py_.png" alt="Python" class="tech-logo"></div>
+                    <div class="tech-item"><img src="/Images/java_.png" alt="Java" class="tech-logo"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="section-header">
+                <h2 class="section-title">Let's Collaborate</h2>
+                <p class="section-subtitle">Whether you have a project proposal, a technical challenge, or an inquiry, we're ready to listen. Let's start the conversation.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <form id="contactForm" action="https://formspree.io/f/your_form_id" method="POST" novalidate>
+                        <div class="form-group floating">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group floating">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Your Email</label>
+                            <span class="email-validation-message"></span>
+                        </div>
+                        <div class="form-group floating">
+                            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <i class="fas fa-paper-plane send-icon"></i>
+                        </button>
+                    </form>
+                    <div id="formStatus" class="form-status"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>&copy; 2025 Py# Developers. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+            <img src="" alt="Project Image" class="modal-img">
+            <h3 class="modal-title"></h3>
+            <div class="modal-tech-stack"></div>
+            <p class="modal-desc"></p>
+            <a href="#" class="btn btn-outline modal-link" target="_blank">View Live Project</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
