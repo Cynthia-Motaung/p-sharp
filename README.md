@@ -39,21 +39,6 @@ The project leverages core web technologies to create a fast, efficient, and mai
 
 ---
 
-## 📂 File Structure
-
-The project is organized into a clean and intuitive file structure.
-
-
-/
-|-- index.html          # The main HTML file containing all content and structure.
-|-- index.css           # The main stylesheet with all styling rules.
-|-- script.js           # The main JavaScript file for all interactive functionality.
-|-- /Images/            # Folder for all images (team photos, project images, etc.).
-|-- README.md           # This file.
-
-
----
-
 ## 🚀 Setup and Usage
 
 To run this project locally, follow these simple steps:
